@@ -1,0 +1,8 @@
+include CHANGELOG
+include README.md
+
+recursive-include project/tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include docs data bin

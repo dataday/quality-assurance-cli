@@ -1,0 +1,10 @@
+*.pyc
+*__pycache__
+.idea
+*.iml
+*.DS_Store
+**/docs/build/
+**/test-results.xml
+**/test-coverage.xml
+**/test-pylint.txt
+**/.coverage

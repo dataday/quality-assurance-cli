@@ -1,0 +1,19 @@
+# Changelog
+
+Quality Assurance Command Line Interface (CLI)
+
+All notable changes to this program will be documented in this file.
+
+## [0.1.0] - 2018-02-14
+### Added
+- Added support for accepting command line arguments
+- Added configuration files to drive testing expectations
+- Added support for running code style checks
+- Added support for running unit tests
+- Added README documentation for this utility
+- Added tests to confirm interface expectations
+
+## [0.1.0.rc] - 2018-02-08
+### Added
+- This CHANGELOG file
+- Support for command line execution via the console

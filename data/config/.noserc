@@ -1,0 +1,14 @@
+# https://nose.readthedocs.io/en/latest/usage.html
+[nosetests]
+cover-branches          = true
+with-coverage           = true
+cover-package           = .
+cover-xml               = true
+cover-html              = true
+cover-html-dir          = test-reports/coverage
+cover-erase             = true
+with-xunit              = true
+xunit-file              = test-results.xml
+cover-xml-file          = test-coverage.xml
+cover-min-percentage    = 10
+include                 = ./tests

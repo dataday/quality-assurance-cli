@@ -1,0 +1,20 @@
+# https://coverage.readthedocs.io/en/coverage-4.4.2/config.html
+[run]
+  # whether to measure branch coverage in addition to statement coverage.
+  branch = True
+
+  omit =
+    # omit test package structure
+    *tests/*
+    *__init__.py
+    *__main__.py
+    *site-packages/*
+
+[report]
+  # fail when under the total coverage measurement
+  fail_under = 80
+  # show missing lines
+  show_missing = True
+
+[xml]
+  output = test-coverage.xml

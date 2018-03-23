@@ -1,0 +1,16 @@
+# please note:
+# - edit the following configuration properties to add support as required.
+# - WARNING: please avoid checking changes to this file in.
+# https://nose.readthedocs.io/en/latest/usage.html
+[nosetests]
+#cover-package          = .
+#cover-branches         = true
+#with-coverage          = true
+#cover-xml              = true
+#cover-html             = true
+#cover-html-dir         = test-reports
+#cover-erase            = true
+#with-xunit             = true
+#xunit-file             = test-results.xml
+#cover-xml-file         = test-coverage.xml
+#cover-min-percentage   = 80
